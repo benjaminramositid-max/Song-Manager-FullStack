@@ -1,4 +1,4 @@
-const API_URL = `${window.location.protocol}//${window.location.hostname}:3000/api/songs/`;
+const API_URL = 'https://song-manager-api-i6ej.onrender.com';
 
 let songsList = [];
 let editSongModal;
