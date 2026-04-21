@@ -5,7 +5,7 @@ const songRoutes = require('./routes/songRoutes');
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:8080',
+    origin: ['http://localhost:8080', 'https://song-manager-fullstack.vercel.app', 'https://song-manager-frontend.vercel.app'],
     credentials: true
 }));
 
