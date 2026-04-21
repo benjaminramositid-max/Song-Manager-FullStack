@@ -1,0 +1,24 @@
+{
+  "name": "song-manager",
+  "version": "1.0.0",
+  "description": "A simple song manager to add and remove songs from your playlist",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "start:api": "node backend/server.js",
+    "start:client": "npx http-server frontend -p 8080 -c-1",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": ["songs", "music", "playlist", "express", "mysql"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
