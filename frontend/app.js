@@ -1,4 +1,4 @@
-const API_URL = 'https://song-manager-api-i6ej.onrender.com';
+const API_URL = 'https://song-manager-fullstack.onrender.com/api/songs/';
 
 let songsList = [];
 let editSongModal;
